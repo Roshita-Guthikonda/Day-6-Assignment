@@ -8,9 +8,10 @@ public class PositiveOrNegative {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a Number:");
 		int num=sc.nextInt();
-		String result=(num>0)?"Positive number":"Negative number";
+		String result=(num>=0)?"Positive number":"Negative number";
 		System.out.println(result);
 		sc.close();
 	}
 
 }
+
